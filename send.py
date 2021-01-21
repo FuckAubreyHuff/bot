@@ -4,10 +4,10 @@ import random
 
 print("Bot Starting...")
 
-CONSUMER_KEY = ''
-CONSUMER_SECRET = ''
-ACCESS_TOKEN = ''
-ACCESS_SECRET = ''
+CONSUMER_KEY = 'bfcVqgGo80zIXyR1Kbcg0ggAi'
+CONSUMER_SECRET = 'P48ZPHiWMhaKXAkxAR8S9jiztAF6qAa3QynrA9PdTTmEgrxn4H'
+ACCESS_TOKEN = '1176869078738378753-wY1noHWcRp4MGRDFuMSEvFFJxLXTId'
+ACCESS_SECRET = 'EpiPeDFrRB2XzG4jgGt6tWp4p05ww4XwFUdXEQco4FPcS'
 
 # Authenticate to Twitter
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
@@ -43,6 +43,3 @@ def reply():
 
 reply()
 print("Tweeted those twits")
-
-# api.update_status('@' + follower.screen_name + ' ' + insult)
-#             print('Sending a tweet - ' + '@' + follower.screen_name + ' ' + insult)
