@@ -4,10 +4,10 @@ import random
 
 print("Bot Starting...")
 
-CONSUMER_KEY = 'bfcVqgGo80zIXyR1Kbcg0ggAi'
-CONSUMER_SECRET = 'P48ZPHiWMhaKXAkxAR8S9jiztAF6qAa3QynrA9PdTTmEgrxn4H'
-ACCESS_TOKEN = '1176869078738378753-wY1noHWcRp4MGRDFuMSEvFFJxLXTId'
-ACCESS_SECRET = 'EpiPeDFrRB2XzG4jgGt6tWp4p05ww4XwFUdXEQco4FPcS'
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
+ACCESS_TOKEN = ''
+ACCESS_SECRET = ''
 
 # Authenticate to Twitter
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
@@ -17,7 +17,7 @@ auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
 # Define screen name (Twitter @) to use
-screen_name = '69Data69'
+screen_name = 'aubrey_huff'
 
 # Function to save followers in a text file
 def getting_followers(file):
